@@ -9,38 +9,13 @@ A multi-agent system that analyzes user mood and provides intelligent suggestion
 - **Activity Suggestions**: Provides personalized recommendations
 - **Positive Reinforcement**: Encourages good moods
 
-## How It Works ⚙️
-
-```mermaid
-graph TD
-    A[User Input] --> B(Mood Analyzer)
-    B --> C{Triage Agent}
-    C -->|Negative Mood| D[Activity Suggester]
-    C -->|Positive Mood| E[Positive Response]
-Example Sessions 💬
-Case 1: Happy Mood
-
-text
-How are you feeling today? I just got promoted!
-
-Mood detected: happy
-😊 Great to hear you're doing well!
-Case 2: Stressed Mood
-
-text
-How are you feeling today? Work is overwhelming me...
-
-Mood detected: stressed
-🌟 Suggestion: Try the 4-7-8 breathing technique (inhale 4s, hold 7s, exhale 8s). 
-A 10-minute walk outside can also help clear your mind.
-
 ## Installation 🛠️
 
 Clone repo:
 
 bash
-git clone https://github.com/AyeshaNasirWebDeveloper/Agentic-AI-Assignment-1/mood-analyzer.git
-cd mood-analyzer
+git clone https://github.com/AyeshaNasirWebDeveloper/Handoff-Agent.git
+
 Create virtual environment:
 
 bash
