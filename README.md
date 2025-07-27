@@ -13,33 +13,42 @@ A multi-agent system that analyzes user mood and provides intelligent suggestion
 
 Clone repo:
 
-bash
+```bash
 git clone https://github.com/AyeshaNasirWebDeveloper/Handoff-Agent.git
+```
 
-Create virtual environment:
+## Create virtual environment:
 
-bash
+```bash
 python -m venv .venv
 source .venv/bin/activate  # Linux/Mac
 .venv\Scripts\activate     # Windows
-Install dependencies:
+```
 
-bash
+## Install dependencies:
+
+```bash
 Add .env file:
 
 env
 GEMINI_API_KEY=your_api_key_here
 Usage 🚀
-Run the analyzer:
+```
 
-bash
+## Run the analyzer:
+
+```bash
 python main.py
-Agent Architecture 🏗️
+```
+
+## Agent Architecture 🏗️
 Agent	Role	Tools
 Mood Analyzer	Classifies emotional state	None
 Triage Agent	Routes to specialists	Decision logic
 Activity Suggester	Provides coping strategies	Suggestion database
-Requirements 📦
+
+## Requirements 📦
+
 Python 3.10+
 
 Gemini API Key
@@ -62,7 +71,7 @@ Push to branch
 
 Open PR
 
-License 📜
+## License 📜
 MIT License - See LICENSE
 
 Created with ❤️ by [Ayesha Nasir] | https://linktr.ee/ayesha_nasir
