@@ -1,4 +1,4 @@
-# Mood Analyzer with Handoff Agents 🧠→💡
+# Handoff Agents 🧠→💡
 
 A multi-agent system that analyzes user mood and provides intelligent suggestions using Gemini AI.
 
